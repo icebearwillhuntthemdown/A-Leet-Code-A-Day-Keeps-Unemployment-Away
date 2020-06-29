@@ -29,7 +29,11 @@ public class arrayAndDVDs{
 }
 ```
 
-
+### Default value for empty index
+Java always initialises empty Array slot to null if it contains objects, or to default values if it contains primitive values.
+  * int[] : 0
+  * float[] : 0.0
+  * bool[] : false
 
 
 
