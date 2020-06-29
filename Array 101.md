@@ -46,3 +46,28 @@ Java always initialises empty Array slot to **null** if it contains objects, or 
 
 > When an Array is given as a parameter, without any additional information, you can safely assume that **length == capacity**, therefore we can use arr.length.
 
+### Max Consecutive Ones
+Given a binary array, find the maximum number of consecutive 1s in this array.
+
+``` Java
+class Solution {
+    public int findMaxConsecutiveOnes(int[] nums) {
+        
+        int max = 0;
+        int currCount = 0;
+        
+        for(int i=0; i<nums.length; i++){
+            if(nums[i] == 1){
+                currCount++;
+                max = Math.max(max, currCount);
+            }else{
+                currCount = 0;
+            }
+        }
+        
+      return max;
+        
+    }
+}
+
+```
