@@ -1,6 +1,6 @@
 # [Array 101](https://leetcode.com/explore/featured/card/fun-with-arrays/521/introduction/)
 
-배열을 아주 쉽고 적절하게 비유를 통해 설명하는 글을 발견했다.
+배열을 아주 쉽고 적절하게 비유를 통해 설명하는 글을 발견했다. 안다고 생각하지 말고 기초부터 꼼꼼히 다시 공부하기! :fire: 
 
 Array = storing DVDs in a box!  
 
@@ -30,7 +30,7 @@ public class arrayAndDVDs{
 ```
 
 
-### * Default value for empty index
+### Default value for empty index
 Java always initialises empty Array slot to **null** if it contains objects, or to default values if it contains primitive values.
   * int[] : 0
   * float[] : 0.0
