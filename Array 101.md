@@ -41,9 +41,10 @@ Java always initialises empty Array slot to **null** if it contains objects, or 
   * bool[] : false
 
 ### Capacity vs Length
-* Capacity : the maximum amount the array can hold e.g.) arr.length
+* Capacity : the maximum amount the array can hold e.g.) 
+  * can be checked by array.length
 * Length : the actual number of items that the array currently holds
-
+  * need a user variable to keep track of the actual length
 > When an Array is given as a parameter, without any additional information, you can safely assume that **length == capacity**, therefore we can use arr.length.
 
 ### Max Consecutive Ones
@@ -69,5 +70,40 @@ class Solution {
         
     }
 }
+
+```
+
+### Insertion
+```Java
+ int[] intArray = new int[6];
+        int length = 0;
+
+        for(int i = 0; i < 3; i++){
+            intArray[length] = i;
+            length++;
+        }
+```
+
+1. At the end : simply append the new element using the length variable
+```
+intArray[length] = 10; //10 is added at index 3
+length++;
+``` 
+1. At the beginning : move all the existing elements to the right and add the new element at index 0 
+```
+for(int i = 3; i >= 0; i--){
+  intArray[i+1] = intArray[i]; //move the exsiting elements to the right
+}
+
+intArray[0] = 20; //and add a new element at index 0
+```
+1. In the middle : move all the elements from the specific index onwards to the right and add the new element at the index
+```
+//adding a new element at index 2
+for(int i = 4; i >= 2; i--){
+  intArray[i+1] = intArray[i]; //move some elements to the right to make a space
+}
+
+intArray[2] = 30; // add the new element in the space
 
 ```
