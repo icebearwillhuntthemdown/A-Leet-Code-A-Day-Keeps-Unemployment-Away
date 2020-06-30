@@ -89,7 +89,7 @@ class Solution {
 intArray[length] = 10; //10 is added at index 3
 length++;
 ``` 
-1. At the beginning : move all the existing elements to the right and add the new element at index 0 
+2. At the beginning : move all the existing elements to the right and add the new element at index 0 
 ```
 for(int i = 3; i >= 0; i--){
   intArray[i+1] = intArray[i]; //move the exsiting elements to the right
@@ -97,7 +97,7 @@ for(int i = 3; i >= 0; i--){
 
 intArray[0] = 20; //and add a new element at index 0
 ```
-1. In the middle : move all the elements from the specific index onwards to the right and add the new element at the index
+3. In the middle : move all the elements from the specific index onwards to the right and add the new element at the index
 ```
 //adding a new element at index 2
 for(int i = 4; i >= 2; i--){
