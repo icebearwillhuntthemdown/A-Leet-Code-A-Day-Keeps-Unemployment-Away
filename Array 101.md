@@ -6,11 +6,11 @@
 Array = storing DVDs in a box!  
 > An Array is a collection of items. The items could be integers, strings, DVDs-anything really. The items are stored in neighboring contiguous memory locations, in definite size. Because they're stored together, checking through the entired collection of items is straightforward.
 
-* a collection type
-* only holds a sinlge type of data
-* data is stored in contiguous memory location
-* the definite size is decided on creation
-* 0-indexed, meaning the highest index is arr.length-1
+* a collection type, data structure
+* only holds a **sinlge type** of data
+* data is stored in **contiguous memory location**
+* the **definite size** is decided on creation
+* **zero-indexed**, meaning the highest index is arr.length-1
 
 ```java
 public class arrayAndDVDs{
@@ -35,16 +35,16 @@ public class arrayAndDVDs{
 
 
 ### Default value for empty index
-Java always initialises empty Array slot to **null** if it contains objects, or to default values if it contains primitive values.
+Java always initialises empty Array slot to **null** if it contains **objects**, or to default values, which are **0** and **false** for **primitive values**.
   * int[] : 0
   * float[] : 0.0
   * bool[] : false
 
 ### Capacity vs Length
-* Capacity : the maximum amount the array can hold e.g.) 
-  * can be checked by array.length
-* Length : the actual number of items that the array currently holds
-  * need a user variable to keep track of the actual length
+* Capacity : the **maximum amount** the array can hold e.g.) 
+  * can be checked by **array.length**
+* Length : the actual number of items that the array **currently holds**
+  * need a **user variable** to keep track of the actual length
 > When an Array is given as a parameter, without any additional information, you can safely assume that **length == capacity**, therefore we can use arr.length.
 
 ### Max Consecutive Ones
