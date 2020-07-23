@@ -4,7 +4,7 @@
 * Math.max(int a, int b) : return the maximum value between the two operands.
 
 ### Arrays
-* Arrays.toString(array) : printing the elements of an array
+* Arrays.toString(array) : stringify the elements of an array
 * Arrays.copyOf(array, newLength) : copying an array into another
 
 ### List Interface
@@ -24,3 +24,11 @@
 * boolean addAll(int index, Collection c) : Do the same as above but at the specified position.
 * boolean removeAll(Collection c) : Removes all the elements from the list that are contained in the specified collection. Returns true if the list's been changed.
 * boolean retainAll(Collection c) : Retains only the elements that are in the specified collection and returns true if the list's been changed.
+
+
+### String
+* int compareTo(String s) : compares two strings lexicographically. In specific, compares the strings' unicode value. 
+  * Unicode value : Upper cases have lower value than lower cases and the value increases in alphabetical order. 
+  * returns 0, if the string is equal to the other string
+  * returns negative difference, if the value of this string is smaller than the argument string's.
+  * returns positive difference, if the value of this string is bigger than the arguemnt string's.
