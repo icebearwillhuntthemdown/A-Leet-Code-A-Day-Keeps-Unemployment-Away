@@ -19,7 +19,7 @@
 * remove(int index) : Removes the element at the specified position and shifts any subsequent elements to the left. Returns the removed element.
 * int indexOf(Object o) : Returns the lowest index of the specified element, or -1 is this list doens't contain the element.
 * boolean addAll(Collection c) : Copies all the elements of the collection and appends them at the end of the list. Returns true if the list's been changed.
-  * ArrayList, LinkedList의 경우 생성자의 파라미터로 복사할 수도 있다.
+  * ArrayList, LinkedList의 경우 생성자의 파라미터로 다른 컬렉션을 복사할 수도 있다.  
   `List<String> newArrayList = new ArrayList<String>(originalArrayList);`
 * boolean addAll(int index, Collection c) : Do the same as above but at the specified position.
 * boolean removeAll(Collection c) : Removes all the elements from the list that are contained in the specified collection. Returns true if the list's been changed.
