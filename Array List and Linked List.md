@@ -6,6 +6,8 @@ List<Object> arrayListName = new ArrayList<>();
 ```
 Array list can be taken as a resizable array that holds objects. Unlike array, array list is a **class** itself hence we instantiate one with **new** keyword and a constructor. Another difference between array and array list is, array list can't hold a primitive type and you need to use an wrapper class(autoboxing) instead of the primitive type. 
 
+<br/><br/>
+
 ## Linked List
 ```java
 List<Object> linkedListName = new LinkedList<>();
@@ -26,7 +28,9 @@ while(i.hasNext()){
 * boolean hasNext() : returns true if the iteration has more elements.
 * next() : returns the next element in the iteration.
 
-#### List Interface Methods
+<br/><br/>
+
+## List Interface Methods
 Both array list and linked list implement List interface, hence share methods below.
 * int size() : Returns the number of elements in the list.
 * boolean isEmpty() : Returns true if the list is empty and false otherwise.
