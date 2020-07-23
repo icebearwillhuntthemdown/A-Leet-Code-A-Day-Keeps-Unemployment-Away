@@ -22,7 +22,7 @@ List<Object> linkedListName = new LinkedList<>();
 ```
 Just like array list, linked list also is a **class** and holds **objects**. But in linked list, each element has **a value and a reference** to the next element. When you add or remove an element from an array list it automatically shifts the subsequent elements, which can lead to massive resource usage. Unlike array list, there's no need to shift the elements in linked list, as all that needs to be done is just **changing the reference to**. If you add an element in linked list at the index of 3, the reference of the element of index 2 is being changed to the new element. If you remove an element from a linked list at index 4, the element at index 3 now points to what used be element of index 5. Garbage collector will automatically remove the elements without any reference to them. 
 
-### Iteration of Linked List
+### Iteration of Linked List : Use Iterator
 Even though linked list also has indices, it's not efficient to interate by index.
 ```java
 List<String> userNames = new LinkedList<>();
