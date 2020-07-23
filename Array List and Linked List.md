@@ -7,12 +7,16 @@ List<Object> arrayListName = new ArrayList<>();
 Array list can be taken as a **resizable array** that holds **objects**. Unlike array, array list is a **class** itself hence we instantiate one with **new** keyword and a constructor. Another difference between array and array list is, array list can't hold a primitive type and you need to use an wrapper class(autoboxing) instead of the primitive type. 
 
 ### Iteration of Array List : By-Index 
-Just like array, array list also uses indices to iterate
-```
+Just like array, array list also iterates based on index
+```java
 List<Integer> intArrList = new ArrayList<>();
 for(int myInt : intArrList){
   System.out.println(myInt);
 }
+```
+ArrayList.foreach() method
+```java
+intArrList.foreach(myInt -> System.out.println(myInt));
 ```
 <br/><br/>
 
