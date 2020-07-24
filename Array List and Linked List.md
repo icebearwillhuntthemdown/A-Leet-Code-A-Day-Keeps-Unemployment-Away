@@ -36,9 +36,16 @@ while(i.hasNext()){
   System.out.println(i.next());
 }
 ```
-##### Iteration interface Methods
+##### Iterator interface Methods
 * boolean hasNext() : returns true if the iteration has more elements.
 * next() : returns the next element in the iteration.
+
+##### ListIterator interface Methods 
+An iterator for lists that extends Iterator interface.
+* booelean hasNext() : same as above
+* boolean hasPrevious() : returns true if the iteration has more elements but in reverse direction.
+* next() : returns the next element in the iteration and advances the cursor position.
+* previous() : returns the previous element in the iteration and moves the cursor backwards.
 
 <br/><br/>
 
