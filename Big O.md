@@ -3,8 +3,11 @@
 ## What is good code?
 * **Readable**  
 Is it clean and easy for others to read?
-* **Scalable**  
-Does it scale as things grow larger?
+* **Scalable**
+  * Momry - Space complexity
+    * Does it scale as things grow larger?
+  * Speed - Time complexity
+    * Does it scale as things grow larger?
 <br/><br/>
 
 ## Big O
