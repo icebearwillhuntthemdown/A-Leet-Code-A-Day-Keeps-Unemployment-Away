@@ -4,10 +4,12 @@
 * **Readable**  
 Is it clean and easy for others to read?
 * **Scalable**
-  * Momry - Space complexity
-    * Does it scale as things grow larger?
+  * Memory - Space complexity
+    How much memory does it take?
+      * Heap : where we store variables that we assign values to
+      * Stack : where we keep track of function calls 
   * Speed - Time complexity
-    * Does it scale as things grow larger?
+    Does it scale as things grow larger?
 <br/><br/>
 
 ## Big O
@@ -37,4 +39,14 @@ Drop all except the most dominant one. e.g.) O(n + n^2) -> O(n^2), O(x^2+3x+100+
 * Comparisons (<, >, ==)
 * Looping (for, while)
 * Outside Function call (function())
+
+### What causes Space complexity?
+* Variables
+* Data structure
+* Function call
+* Allocations
+
+## Reference
+[Udemy](https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/)
+[Bigocheatsheet](https://www.bigocheatsheet.com/)
 
