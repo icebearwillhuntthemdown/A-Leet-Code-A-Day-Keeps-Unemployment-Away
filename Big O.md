@@ -1,9 +1,9 @@
 # Big O 
 
 ## What is good code?
-1. **Readable**  
+* **Readable**  
 Is it clean and easy for others to read?
-2. **Scalable**  
+* **Scalable**  
 Does it scale as things grow larger?
 <br/><br/>
 
