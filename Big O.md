@@ -9,7 +9,8 @@ Does it scale as things grow larger?
 
 ## Big O
 Big O is the measurement of scalability. Big O means how quickly the runtime grows, and measured by comparing the size of input and the number of operations that increases.   
-* O(1) : Constant Time. No loops.
+* O(1) : Constant Time.  
+No loops.
 * O(log N) : Logarithmic. 
 * O(n) : Linear Time. The number of operations increases by the same amount of elements. For, while loops through n times.
 * O(n log(n)) Logt Linear.
