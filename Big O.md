@@ -47,6 +47,6 @@ Drop all except the most dominant one. e.g.) O(n + n^2) -> O(n^2), O(x^2+3x+100+
 * Allocations
 
 ## Reference
-[Udemy](https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/)
-[Bigocheatsheet](https://www.bigocheatsheet.com/)
+* [Udemy](https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/)
+* [The Big O Cheat Sheet](https://www.bigocheatsheet.com/)
 
