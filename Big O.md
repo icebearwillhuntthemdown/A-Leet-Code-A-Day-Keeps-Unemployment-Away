@@ -1,16 +1,16 @@
 # Big O 
 
 ## What is good code?
-The three pillars of good code is Readability, Memory efficiency, and Time efficiency.  
+The three pillars of good code is **Readability**, **Memory efficiency**, and **Time efficiency**.  
 * **Readable**  
-Is it clean and easy for others to read?
+Is the code clean and easy for others to read?
 * **Scalable**
   * Memory - Space complexity
-    How much memory does it take?
+    How much memory does the code take?
       * Heap : where we store variables that we assign values to
       * Stack : where we keep track of function calls 
   * Speed - Time complexity
-    Does it scale as things grow larger?
+    Does the code scale as things grow larger?
 <br/><br/>
 
 ## Big O
