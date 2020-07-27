@@ -14,7 +14,8 @@ Is it clean and easy for others to read?
 
 ## Big O
 Big O is the measurement of scalability. Big O means how quickly the runtime grows, and measured by comparing the size of input and the number of operations that increases.   
-![Courtesy from https://www.bigocheatsheet.com/](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbfTRLc%2FbtqF5eKu4wq%2FG1KP7fZGO2mdFIenj8ppiK%2Fimg.png)
+![Courtesy from bigocheatsheet.com/](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbfTRLc%2FbtqF5eKu4wq%2FG1KP7fZGO2mdFIenj8ppiK%2Fimg.png)
+Courtesy from bigocheatsheet.com/  
 * O(1) : Constant Time.  
 No loops.
 * O(log N) : Logarithmic.   
