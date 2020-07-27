@@ -15,7 +15,7 @@ Big O is the measurement of scalability. Big O means how quickly the runtime gro
 * O(n log(n)) Logt Linear.
 * O(n^2) : Quadratic.
 * O(2^n) : Exponential
-* O(n!) : Factorial. a.k.a. no! :rofl:. Adding a loop for every element, which is the least efficient case.
+* O(n!)(a.k.a. no! :rofl:) : Factorial.  Adding a loop for every element, which is the least efficient case.
 <br/><br/>
 
 ### Rules
