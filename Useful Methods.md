@@ -34,6 +34,8 @@
   * returns positive difference, if the value of this string is bigger than the arguemnt string's.
 * char[] toCharArray() : converts this string to a new character array.
 * String[] split(String regex) : splits this string around matches of the given regex.  
+* boolean contains(String s) : returns true if this string contains the specified string.
+
 <br/><br/>
 
 +) Definition of lexicographical ordering by Java
