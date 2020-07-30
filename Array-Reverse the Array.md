@@ -1,4 +1,4 @@
-# Reverse the Array
+# Reverse the Array - Int Array
 
 ### Instruction
 -Write a method called reverse() with an int array as a parameter.
@@ -33,3 +33,41 @@ public class ReverseArray {
     }
 }
 ```
+
+# Reverse the Array - String Array
+
+### Instruction
+Write a method that takes a string and prints it backwards.
+
+### Answer
+```java
+public class Main {
+    public static void main(String[] args) {
+        reverse("Hi My name is Hana!");
+    }
+
+    public static void reverse(String str){
+        int length = str.length();
+        char[] strArr = new char[length];
+        char[] newArr = new char[length];
+        String reversed = "";
+
+        for(int i = 0; i < length; i++){
+            strArr[i] = str.charAt(i);
+        }
+
+        for(int i = 0; i < length; i++){
+            newArr[i] = strArr[(length-1) - i];
+            reversed += newArr[i];
+        }
+
+        System.out.println(Arrays.toString(strArr));    // [H, i,  , M, y,  , n, a, m, e,  , i, s,  , H, a, n, a, !]
+        System.out.println(Arrays.toString(newArr));    // [!, a, n, a, H,  , s, i,  , e, m, a, n,  , y, M,  , i, H]
+        System.out.println(reversed);   // !anaH si eman yM iH
+    }
+}
+```
+[GeeksforGeeks](https://www.geeksforgeeks.org/reverse-a-string-in-java/) 풀이 참고해서 다시 
+
+
+
