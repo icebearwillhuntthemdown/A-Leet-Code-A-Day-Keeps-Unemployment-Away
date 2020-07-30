@@ -12,5 +12,7 @@ Insertion, deletion, traversal, searching, sorting, accessing
 
 ## Array 
 Data is stored in contiguous memory that is in order.
-* Static array  
-* Dynamic array  
+* Static array : fixed length, like array in java
+* Dynamic array : resizable, like array list in java
+
++) String questions are often array questions. After all, a string is an array of characters and turning it into array and treat it as an array is a good approach.
