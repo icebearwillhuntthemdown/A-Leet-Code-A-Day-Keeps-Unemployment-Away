@@ -33,6 +33,7 @@
   * returns negative difference, if the value of this string is smaller than the argument string's.
   * returns positive difference, if the value of this string is bigger than the arguemnt string's.
 * char[] toCharArray() : converts this string to a new character array.
+* char charAt(int index) : returns the char value at the specific index.
 * String[] split(String regex) : splits this string around matches of the given regex.  
 * boolean contains(String s) : returns true if this string contains the specified string.
 
