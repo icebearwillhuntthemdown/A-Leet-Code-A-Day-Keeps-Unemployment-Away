@@ -107,3 +107,14 @@ for(int i = 4; i >= 2; i--){
 intArray[2] = 30; // add the new element in the space
 
 ```
+
+### Pros and Cons
+**Pros**
+* Fast lookups
+* Fast push/pop
+* Ordered
+
+**Cons**
+* Slow inserts
+* Slow deletes
+* Fixed size
