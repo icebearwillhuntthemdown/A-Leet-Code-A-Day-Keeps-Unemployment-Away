@@ -8,7 +8,7 @@ Merge and sort two int arrays.
 public class MergeSorted {
     public static void main(String[] args) {
         int[] arr = mergeSorted(new int[]{0, 1, 7}, new int[]{4, 8, 9});
-        System.out.println(Arrays.toString(arr));
+        System.out.println(Arrays.toString(arr));   //[0, 1, 4, 7, 8, 9]
     }
 
     private static int[] mergeSorted(int[] arr1, int[] arr2){
