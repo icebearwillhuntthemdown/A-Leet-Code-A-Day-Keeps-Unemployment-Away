@@ -4,13 +4,15 @@ A data structure consists of **key and value** and uses the key instead of index
 
 ##### What does 'Hash' mean?
 > The term "hash" comes by way of analogy with its non-technical meaning, to "chop and mix". Indeed, typical hash functions, like the mod operation, "chop" the input domain into many sub-domains that get "mixed" into the output range to improve the uniformity of the key distribution.
+<br/><br/>
 
 ## Big O
 * Insertion : O(1)
 * Deletion : O(1)
 * Lookup : O(1)
 * Search : O(1)
-  
+<br/><br/>
+
 ## Pros and Cons  
 Hash tables are usually the answer to improve time complexity. 
 
@@ -22,10 +24,11 @@ Hash tables are usually the answer to improve time complexity.
 **Cons**
 * Unordered
 * Slow key iteration  
+<br/><br/>
 
-### Hash Collision
+## Hash Collision
 Despite the good performance shown above, hash tables also have downsides and 'hash collision' is one of them. Hash collision refers to the situation where the hash function generates the same hash result for different hash String or key. As hash table allocates data randomly depending on the hash result, this brings about uneven memory usage and accumulation on certain memory locations which slows down the process to O(n).  
-
+<br/><br/>
 
 
 [HashTable, HashMap, and HashSet](https://stackoverflow.com/questions/47838841/hashtable-hashmap-hashset-hash-table-concept-in-java-collection-framework)
