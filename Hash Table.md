@@ -12,7 +12,7 @@ A data structure consists of **key and value** and uses the key instead of index
 * Deletion : O(1)
 * Lookup : O(1)
 * Search : O(1)
-<br/><br/>
+<br/><br/>  
 
 ## Pros and Cons  
 Hash tables are usually the answer to improve time complexity. 
