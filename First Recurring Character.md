@@ -63,8 +63,8 @@ function firstRecurringCharacter(input){
 O(n)이고 arr2, arr4 같은 경우에도 적용된다. 반복문으로 map에 배열의 요소들을 하나씩 넣고, 이미 map에 존재하는 값을 만나면 return하는 식이다.  
 
 ## What I learnt
-자바스크립트 map[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map#Examples]에 대해서 배웠다
-  * Map과 Object는 모두 Hash table로 유사하지만 다르다.
+자바스크립트 [map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)에 대해서 배웠다
+  * Map과 Object는 모두 Hash table로 유사하지만, object는 string 타입의 key만 받아들이는 반면 map은 key로 함수를 포함한 모든 타입을 받는다.
   * map[key] = value; 도 동작은 하는데 object와 구분을 위해 지양하고 메소드를 쓰는 것이 좋다고 한다.  
   * Map methods
     * let myMap = new Map();
@@ -88,7 +88,7 @@ O(n)이고 arr2, arr4 같은 경우에도 적용된다. 반복문으로 map에 �
       console.log(entry); // ['apple', 500]['banana', 400]['orange', 1000]
     }
     ```
-  
-  
+    
+ 
 
 
