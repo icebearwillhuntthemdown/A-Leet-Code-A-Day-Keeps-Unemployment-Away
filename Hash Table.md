@@ -11,21 +11,20 @@ A data structure consists of **key and value** and uses the key instead of index
 * Lookup : O(1)
 * Search : O(1)
   
+## Pros and Cons  
+Hash tables are usually the answer to improve time complexity. 
+
 **Pros**
 * Fast lookups
 * Fast inserts
 * Flexible keys  
-+) Hash tables are usually the answer to improve time complexity  
-Fast Access O(1), but trades off with more memory O(n)  
 
 **Cons**
 * Unordered
 * Slow key iteration  
 
 ### Hash Collision
-Despite the good performance shown above, hash tables also have downsides and 'hash collision' is one of them. Hash collision refers to the situation where the hash function generates the same hash result for different hash String or key. As hash table allocates data randomly depending on the hash result, this brings about uneven memory usage and accumulation on certain memory locations which slows down the process to O(n).
-
-
+Despite the good performance shown above, hash tables also have downsides and 'hash collision' is one of them. Hash collision refers to the situation where the hash function generates the same hash result for different hash String or key. As hash table allocates data randomly depending on the hash result, this brings about uneven memory usage and accumulation on certain memory locations which slows down the process to O(n).  
 
 
 
